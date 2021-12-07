@@ -1,0 +1,34 @@
+inicio
+
+--problema onde verifica a média
+
+quebrado _nota1 = 0
+quebrado _nota2 = 0
+quebrado _media = 0
+
+escrever("Informe a sua primeira nota: ")
+pularLinha()
+leia(_nota1)
+
+escrever("Informe a sua segunda nota: ")
+pularLinha()
+leia(_nota2)
+
+_media = (_nota1+_nota2)/2
+
+escrever("Sua média é: ")
+imprima(_media)
+pularLinha()
+
+if (_media >= 7) {
+    escrever("Você está aprovado")
+    pularLinha()
+}else {
+    escrever("Você está reprovado")
+    pularLinha()
+}
+
+
+
+
+fim

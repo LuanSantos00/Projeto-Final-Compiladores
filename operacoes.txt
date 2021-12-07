@@ -1,0 +1,63 @@
+inicio
+
+
+inte _num1 = 2
+inte _num2 = 2
+
+escrever("_num1 = ")
+imprima(_num1)
+escrever("_num2 = ")
+imprima(_num2)
+pularLinha()
+
+--soma
+escrever("A SOMA EH TANTO = ")
+imprima(_num1+_num2)
+pularLinha()
+
+--subtração
+escrever("SUBTRAÇÃO")
+pularLinha()
+imprima(_num1-_num2)
+pularLinha()
+
+
+--multiplicação
+escrever("MULTIPLICAÇÃO")
+pularLinha()
+imprima(_num1*_num2)
+pularLinha()
+
+
+--Divisão
+escrever("DIVISÃO")
+pularLinha()
+imprima(_num1/_num2)
+pularLinha()
+
+--Exponenciação
+escrever("EXPONENCIAÇÃO")
+pularLinha()
+imprima(_num1^_num2)
+pularLinha()
+
+escrever("------------------------------------------------------")
+pularLinha()
+
+
+-- LAÇO DE REPETIÇÃO
+
+--exibir de 1 a 10
+inte _num3 = 1
+inte _num4 = 10
+
+
+while(_num3 <= _num4){
+    imprima(_num3)
+    pularLinha()
+    _num3 = _num3 + 1
+}
+
+
+
+fim

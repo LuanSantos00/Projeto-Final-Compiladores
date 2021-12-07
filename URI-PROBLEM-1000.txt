@@ -1,0 +1,9 @@
+inicio
+
+--problema do URI -> clássico Hello World 
+
+escrever("Hello World!")
+pularLinha()
+
+
+fim

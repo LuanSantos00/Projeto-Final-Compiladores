@@ -1,0 +1,44 @@
+inicio
+
+-- todas as variaveis(independente do tipo) devem ser inicializadas com um inteiro(de preferencia 0).
+
+stringi _nome = 0
+inte _idade = 0
+stringi _cidade = 0
+
+
+escrever("Informe seu nome: ")
+leias(_nome)
+pularLinha()
+
+escrever("Informe sua idade: ")
+leia(_idade)
+pularLinha()
+
+escrever("Informe a cidade onde mora: ")
+leias(_cidade)
+pularLinha()
+
+escrever("----------------------------")
+pularLinha()
+escrever("---  SEUS DADOS INFORMADOS  ---- ")
+pularLinha()
+
+escrever("Nome: ")
+imprimas(_nome)
+pularLinha()
+
+escrever("Idade: ")
+imprima(_idade)
+pularLinha()
+
+escrever("Cidade: ")
+imprimas(_cidade)
+pularLinha()
+
+
+escrever("----------------------------")
+pularLinha()
+
+
+fim

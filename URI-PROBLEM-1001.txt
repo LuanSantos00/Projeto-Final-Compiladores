@@ -1,0 +1,18 @@
+inicio
+
+-- problema do URI -> soma de 2 números
+
+int _A = 0
+int _B = 0
+
+leia(_A)
+leia(_B)
+
+int _X = _A + _B
+
+escrever("X = ")
+imprima(_X)
+pularLinha()
+
+
+fim
